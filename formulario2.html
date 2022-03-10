@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <meta charset="utf-8">
+    <title>Formulario 2</title>
+    <style>
+        label {
+            color: gray;
+        }
+        fieldset {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="font-family: sans-serif;color: gray">Rellena el siguiente formulario:</h3><br>
+    <form>
+        <fieldset style="color: green">
+            <legend id="1"><strong>Laboral</strong></legend>
+            
+            <input type="checkbox">
+            <label>Por cuenta ajena</label>
+            <input type="checkbox">
+            <label>Autónomo</label>
+            <p style="color: gray; margin-top: 0">¿Has residido alguna vez en el extranjero?</p>
+            <input type="radio" id="extranjero" name="extranjero"><label>Si</label>
+            <select>
+                <option selected>Dentro de la UE</option>
+                <option>En Asia</option>
+                <option>En EE.UU</option>
+                <option>En otro lugar</option>
+            </select>
+            <br>
+            <br>
+            <input type="radio" id="extranjero" name="extranjero"><label>No</label>
+            <br>
+        </fieldset>
+        <br><br>
+        <fieldset style="color: green">
+            <legend id="1"><strong>Personal</strong></legend>
+            
+            <label>Apellidos y nombre: </label><input type="text" id="nombre"><br><br>
+            <label>Conocimiento sobre: </label><br>
+            <select multiple>
+             <option>Informática</option>
+                <option>Conducción</option>
+                <option>Finanzas</option>
+                <option>Leyes</option>
+            </select>
+            
+        </fieldset>
+        <br>
+        <input type="reset" id="botonCancelar" value="Cancelar">
+        <input type="submit" id="botonEnviar" value="Enviar">
+    </form>
+
+</body></html>
